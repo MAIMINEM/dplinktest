@@ -1,0 +1,16 @@
+
+[[headers]]
+  for = "/.well-known/assetlinks.json"
+  [headers.values]
+  Cache-Control = '''
+      public,
+      max-age=0'''
+  Content-Type = "application/json"
+  X-Content-Type-Options = "nosniff"
+
+
+[[redirects]]
+  from = "/.well-known/apple-app-site-association"
+  to = "/.well-known/apple-app-site-association.json"
+  status = 200
+  force = true
