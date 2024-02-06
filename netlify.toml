@@ -10,7 +10,7 @@
 
 
 [[redirects]]
-  from = "/.well-known/assetlinks.json"
-  to = "/well-known/assetlinks.json"
+  from = "/well-known/assetlinks.json"
+  to = "/.well-known/assetlinks.json"
   status = 200
   force = true
