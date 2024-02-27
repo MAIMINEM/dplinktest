@@ -10,7 +10,11 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a className="App-link" href="https://dplinktest.netlify.app/">
-          Deep link to App
+          Deep link to Home Page
+        </a>
+
+        <a className="App-link" href="https://dplinktest.netlify.app/details">
+          Deep link to Details Page
         </a>
       </header>
     </div>
